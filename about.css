@@ -1,0 +1,104 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eaf2fb; /* Subtle Blue Tint */
+    color: #212529; /* Dark Gray Text */
+}
+h1, h3 {
+    color: #007BFF; /* Bright Blue for Highlights */
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Two-Column Layout */
+.about-container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff; /* White */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+.about-image img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.about-text {
+    margin-left: 20px;
+}
+
+/* Timeline */
+.timeline {
+    border-left: 3px solid #007BFF; /* Bright Blue */
+    padding-left: 20px;
+    margin: 20px 0;
+}
+.timeline-item {
+    margin-bottom: 20px;
+}
+.timeline-item h3 {
+    color: #007BFF;
+    margin-bottom: 5px;
+}
+
+/* Cards for Interests and Skills */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.card {
+    background: #fff; /* White */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px;
+}
+.card h3 {
+    color: #007BFF;
+}
+
+/* Parallax Section */
+.parallax {
+    background-image: url('your-image.jpg'); /* Replace with your image */
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-content {
+    text-align: center;
+    padding: 100px 20px;
+    color: #fff; /* White text for contrast */
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* Skills Section with Progress Bars */
+.skill {
+    margin-bottom: 20px;
+}
+.progress-bar {
+    background-color: #e9ecef; /* Light Gray */
+    border-radius: 5px;
+    height: 20px;
+    width: 100%;
+    overflow: hidden;
+}
+.progress {
+    background: linear-gradient(90deg, #00C6FF, #0072FF); /* Gradient */
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    line-height: 20px;
+    border-radius: 5px;
+}
